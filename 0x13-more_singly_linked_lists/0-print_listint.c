@@ -2,20 +2,20 @@
 
 /**
  * custom_print_list - prints all the elements of a linked list
- * @head: linked list of type listint_t to print
+ * @h: linked list of type listint_t to print
  *
  * Returns the number of nodes in the linked list
  */
-size_t custom_print_list(const listint_t *head)
+size_t custom_print_list(const listint_t *h)
 {
     size_t count = 0;
 
-    while (head)
+    while (h)
     {
-        printf("%d\n", head->n);
+        printf("%d\n", h->n);
         count++;
-        head = head->next;
+        h = h->next;
     }
 
-    return count;
+    return (count);
 }
