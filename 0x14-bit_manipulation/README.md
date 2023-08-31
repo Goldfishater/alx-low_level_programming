@@ -1,1 +1,1 @@
-Bit manip
+Bit man
