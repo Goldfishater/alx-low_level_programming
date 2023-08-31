@@ -1,1 +1,0 @@
-Starting Bit Manpltion
