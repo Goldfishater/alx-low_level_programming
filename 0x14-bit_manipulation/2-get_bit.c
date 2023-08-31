@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_bit - this func returns the value of a bit at an indx in a decimal number
+ * get_bit - this func returns the value of a bit at an indx in a decimal No.
  * @n: number to search
  * @index: bit index
  *
